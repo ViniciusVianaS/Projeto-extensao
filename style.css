@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header-img {
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_oh_canada/hero_landing_us_desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%; 
+    margin-bottom: 10px;
+}
+
+.title1 {
+    color: #fff;
+    margin-left: 45%;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+    margin: 0; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color .4s ease;
+    cursor: pointer;
+}
+
+.signIn, .signUp {
+    font-weight: bold;
+}
+
+.signIn {
+    background-color: red;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.signUp {
+    background-color: #fff;
+    color: red;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.signIn:hover {
+    background-color: rgb(221, 19, 19);
+    transition: color .4s ease;
+}
+.signUp:hover {
+    background-color: rgb(220, 220, 220);
+    transition: color .4s ease;
+}
+
+.input-address {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    height: 30%;
+    width: 60%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.input-address::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-main {
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20vh;
+}
+
+.title2 {
+    margin-bottom: 20px;
+}
+
+.saved-address {
+    background: #fff;
+    color: #656565;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.list1, .list2, .list3 {
+    padding: 50px;
+}
+
+.icons, .telefone-img {
+    margin-left: 50px;
+}
+
+.telefone-img {
+    width: 150px;
+    height: 150px;
+}
+
+.h1-p2{
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-content {
+    flex-direction: column;
+    padding: 60px;
+}
+
+.div-content h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div-content p {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.btn-app {
+    background-color: red;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-app:hover {
+    background-color: rgb(206, 14, 14);
+    transition: color .4s ease;
+}
+
+.comida-img {
+    height: 70vh;
+    width: auto;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content, .content2 {
+    margin-bottom: 40px;
+}
+
+.footer {
+    background: #171717;
+    width: auto;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: auto;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color .4s ease;
+}
+
+.footer a:hover {
+    color: #c8c8c8;
+    font-size: 15px;
+}
