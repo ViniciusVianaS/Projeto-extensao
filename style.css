@@ -52,7 +52,6 @@ nav ul {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    transition: color .4s ease;
     cursor: pointer;
 }
 
@@ -75,11 +74,11 @@ nav ul li a {
 
 .signIn:hover {
     background-color: rgb(221, 19, 19);
-    transition: color .4s ease;
+    transition: .4s;
 }
 .signUp:hover {
     background-color: rgb(220, 220, 220);
-    transition: color .4s ease;
+    transition: .4s;
 }
 
 .input-address {
@@ -191,7 +190,7 @@ p {
 
 .btn-app:hover {
     background-color: rgb(206, 14, 14);
-    transition: color .4s ease;
+    transition: .4s ;
 }
 
 .comida-img {
@@ -210,7 +209,7 @@ p {
 }
 
 .footer {
-    background: #171717;
+    background: #000;
     width: auto;
     padding: 50px 0;
     text-align: center;
@@ -221,15 +220,4 @@ p {
 
 .footer p {
     margin-bottom: 0;
-}
-
-.footer a {
-    text-decoration: none;
-    color: #fff;
-    transition: color .4s ease;
-}
-
-.footer a:hover {
-    color: #c8c8c8;
-    font-size: 15px;
 }
