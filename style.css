@@ -33,10 +33,6 @@ header {
     color: #fff;
     margin-left: 45%;
     margin-right: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 nav ul {
@@ -57,19 +53,17 @@ nav ul li a {
 
 .signIn, .signUp {
     font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 .signIn {
     background-color: red;
-    border-radius: 30px;
-    padding: 10px;
 }
 
 .signUp {
     background-color: #fff;
     color: red;
-    border-radius: 30px;
-    padding: 10px;
 }
 
 .signIn:hover {
@@ -155,6 +149,11 @@ p {
     color: red;
     font-size: 15px;
     font-weight: bold;
+}
+
+.link:hover {
+    color: rgb(180, 15, 15);
+    transition: .3s;
 }
 
 .content {
