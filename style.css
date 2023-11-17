@@ -78,10 +78,10 @@ nav ul li a {
 .input-address {
     outline: none;
     border: none;
-    border-radius: 20px;
-    height: 30%;
-    width: 60%;
-    font-size: 18px;
+    border-radius: 15px;
+    height: auto;
+    width: 420px;
+    font-size: 15px;
     padding: 10px;
     margin-bottom: 15px;
 }
@@ -101,6 +101,7 @@ nav ul li a {
 
 .title2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .saved-address {
@@ -219,25 +220,4 @@ p {
 
 .footer p {
     margin-bottom: 0;
-}
-
-@media only screen and (max-width: 600px) {
-    .title1 {
-        margin-left: auto;
-    }
-    .main {
-        flex-direction: column;
-        margin-top: 60vh;
-    }
-    .content {
-        flex-direction: column;
-        margin-top: 60vh;
-    }
-    .content2 {
-        flex-direction: column;
-    }
-    .comida-img {
-        height: 50vh;
-        width: auto;
-    }
 }
