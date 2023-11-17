@@ -220,3 +220,24 @@ p {
 .footer p {
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .title1 {
+        margin-left: auto;
+    }
+    .main {
+        flex-direction: column;
+        margin-top: 60vh;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 60vh;
+    }
+    .content2 {
+        flex-direction: column;
+    }
+    .comida-img {
+        height: 50vh;
+        width: auto;
+    }
+}
